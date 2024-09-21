@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyaka II Refugee Camp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Kyaka II</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#involved">Get Involved</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <select>
+                <option value="en">English</option>
+                <option value="sw">Swahili</option>
+                <option value="fr">French</option>
+            </select>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main id="main">
+        <section id="hero" class="animate-on-scroll">
+            <h1>Support and Empower 123,000 Refugees at Kyaka II</h1>
+            <p>Providing hope and opportunities for refugees from the Democratic Republic of Congo and Burundi</p>
+            <div class="cta-buttons">
+                <a href="#index" class="btn btn-primary">Donate Now</a>
+                <a href="#learn" class="btn btn-secondary">Learn More</a>
+            </div>
+        </section>
+
+        <section id="quick-links" class="animate-on-scroll">
+            <h2>Quick Links</h2>
+            <div class="quick-links-grid">
+                <a href="#emergency" class="quick-link">Emergency Services</a>
+                <a href="#education" class="quick-link">Education</a>
+                <a href="#healthcare" class="quick-link">Healthcare</a>
+                <a href="#volunteer" class="quick-link">Volunteer</a>
+            </div>
+        </section>
+
+        <section id="about" class="animate-on-scroll">
+            <h2>About Kyaka II</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Kyaka II Refugee Camp, established in 2005, provides a safe haven for refugees primarily from the Democratic Republic of Congo and Burundi. Our mission is to offer comprehensive support and empower refugees to rebuild their lives.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="counter" data-target="123000">0</span>
+                        <span class="stat-label">Refugees</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="counter" data-target="30">0</span>
+                        <span class="stat-label">Aid Programs</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="counter" data-target="15">0</span>
+                        <span class="stat-label">Years of Operation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="animate-on-scroll">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-school"></i>
+                    <h3>Education</h3>
+                    <p>Providing primary and secondary education to over 30,000 refugee children.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hospital"></i>
+                    <h3>Healthcare</h3>
+                    <p>Operating 3 health centers and 1 referral hospital for comprehensive medical care.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Shelter</h3>
+                    <p>Constructing durable shelters and maintaining communal infrastructure.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food Security</h3>
+                    <p>Distributing nutritious food and implementing sustainable agriculture projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="success-stories" class="animate-on-scroll">
+            <h2>Success Stories</h2>
+            <div class="story-carousel">
+                <div class="story-card">
+                    <img src="images/Introducing_ The New Class Of Models Debuting At NYFW.jpg" alt="Amina's portrait">
+                    <h3>Amina's Journey</h3>
+                    <p>From refugee to community leader, Amina's story inspires hope and resilience.</p>
+                    <a href="#amina-story" class="btn btn-secondary">Read More</a>
+                </div>
+                <!-- Add more story cards here -->
+            </div>
+        </section>
+
+        <section id="news" class="animate-on-scroll">
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <!-- FIX: Updated image source to use a placeholder -->
+                    <img src="images/adria-crehuet-cano-_EDjlx6ksJA-unsplash.jpg" alt="Vaccination drive">
+                    <h3>Upcoming Vaccination Drive</h3>
+                    <p>A camp-wide vaccination campaign against measles will begin next week, targeting all children under 5.</p>
+                    <a href="#vaccination-news" class="btn btn-tertiary">Read More</a>
+                </article>
+                <!-- Add more news cards here -->
+            </div>
+        </section>
+
+        <section id="donate" class="animate-on-scroll">
+            <h2>Support Our Cause</h2>
+            <div class="donation-progress">
+                <div class="progress-bar" style="width: 65%;">65%</div>
+            </div>
+            <p>Help us reach our goal of $500,000 for new educational facilities</p>
+            <a href="donate.html" class="btn btn-primary">Donate Now</a>
+        </section>
+
+        <section id="partners" class="animate-on-scroll">
+            <h2>Our Partners</h2>
+            <div class="partner-logos">
+                <!-- FIX: Updated image sources to use placeholders -->
+                <img src="images/unhcr-logo.png" alt="UNHCR Logo">
+                <img src="images/unicef-logo.png" alt="UNICEF Logo">
+                <!-- Add more partner logos here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Kyaka II</h3>
+                <p>Kyaka II Refugee Camp provides support and empowerment to refugees, connecting aid and opportunities to rebuild lives.</p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> +123 456 789</span>
+                    <span><i class="fas fa-envelope"></i> info@kyaka2.org</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Stay Updated</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Kyaka II Refugee Camp | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a>
+        </div>
+    </footer>
+
+    <div class="mobile-cta">
+        <a href="#donate" class="btn btn-primary">Donate Now</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
